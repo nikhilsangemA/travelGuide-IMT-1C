@@ -1,0 +1,32 @@
+.mainContainer {
+  min-height: 100vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #eef4f7;
+}
+
+.heading {
+  border-bottom: 2px solid lightblue;
+
+  text-align: center;
+}
+
+.ul-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 400px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  flex-grow: 1;
+  background-color: #ffffff;
+  box-shadow: 1px 1px;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
